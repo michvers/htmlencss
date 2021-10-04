@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Klik per klik tutorial html css">
+    <meta name="author" content="Michiel Verschaeve Full stack developer">
+    <meta name="keywords" content="HTML5, CSS3, BOOTSTRAP, FLEXBOX">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE MAPS</title>
+</head>
+<body>
+    <h1>IMAGE MAPS</h1>
+    <main>
+        <article>
+            <header>
+                <h2>Dagelijks gezonde maaltijd</h2>
+            </header>
+            <section id="voormiddag">
+                <header>
+                    <h3>Voormiddag</h3>
+                </header>
+                <article>
+                    <header>
+                        <h4>Gezond ontbijt</h4>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae consectetur cupiditate deleniti error omnis perspiciatis sunt temporibus vitae voluptatibus. Atque commodi consectetur eum nulla recusandae repellendus tempora velit! Consequatur.</p>
+                    <img src="images/Ontbijt_Focus-1280x640.jpg" usemap="#image-map" alt="gezond ontbijt"/>
+
+                    <map name="image-map">
+                        <area target="_blank" alt="circle" title="fruitsap" href="fruitsap.html" coords="742,139,91" shape="circle">
+                        <area target="_blank" alt="rect" title="fruitschaal" href="fruitschaal.html" coords="724,417,1278,561" shape="rect">
+                    </map>
+                </article>
+            </section>
+                <section id ="middag">
+                 <header>
+                     <h3>middag</h3>
+                 </header>   
+                </section>
+                <section id="avond">
+                    <header>
+                        <h3>Avond</h3>
+                    </header>
+                </section>
+        </article>
+    </main>
+</body>
+</html>
