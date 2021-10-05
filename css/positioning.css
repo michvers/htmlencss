@@ -1,0 +1,29 @@
+*{
+    box-sizing:border-box;
+}
+#mijnstijl{
+    color:#456897;
+    font-size:100px;
+    font-style:italic;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+    border:1px solid #456897;
+}
+#bloka, #blokb, #blokc{
+    height:200px;
+    width:200px;
+}
+#bloka, #blokb{
+    float:left;
+}
+#bloka{
+    background:red;
+}
+#blokb{
+    background:blue;
+}
+#blokc{
+    background:purple;
+    float:right;
+}
