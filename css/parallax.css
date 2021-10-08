@@ -1,0 +1,15 @@
+#content{
+    background-color: darkseagreen;
+    font-size:36px;
+    color: #fff;
+    padding:750px 0;
+}
+.parallax{
+    background-image:url('../images/backgroundparallax.jpg');
+    height:750px;
+    /*vastzetten/creatie scroll effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -27,7 +27,7 @@
 }
 #blokb{
     background:blue;
-    position:fixed;
+    /*position:fixed;*/
     right:40px;
     bottom:40px;
 }
